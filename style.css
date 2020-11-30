@@ -37,6 +37,12 @@
     font-weight: 500;
 }
 
+#menu ul li a:hover{
+    color: #f76210;
+}
+
+
+
 #icon-phone::before{
     font-family: "Font Awesome 5 Free";
     content: "\f879";
