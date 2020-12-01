@@ -14,6 +14,11 @@ h1{
     font-size: 60px;
 }
 
+h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+
 h3{
     font-size: 22px;
     font-weight: 500px;
@@ -160,6 +165,7 @@ small{
 }
 
 /*                 consultation section */
+
 .consultation-image{
     width: 300px;
     height: 300px;
