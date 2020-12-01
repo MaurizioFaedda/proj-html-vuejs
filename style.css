@@ -167,8 +167,8 @@ small{
 /*                 consultation section */
 
 .consultation-image{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
 }
 
 .consultation-image img{
@@ -179,6 +179,20 @@ small{
     height: 600px;
     border-bottom: 1px solid black;
 }
+
+/*               brands logo          */
+.logo-brand{
+    width: 120px;
+    height: 30px;
+    margin: auto;
+}
+
+.logo-brand img{
+    width: 100%;
+
+}
+
+
 
 #brands, #expert{
     height: 300px;
