@@ -24,6 +24,11 @@ h6{
     color: #777777;
 }
 
+small{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+}
+
 .p-light{
     color: #fff;
     font-size: 24px;
@@ -34,6 +39,13 @@ h6{
     border: none;
     border-radius: 6px;
     font-weight: 400;
+    color: #fff;
+    background-color: #f76210;
+}
+
+.my-btn:hover{
+    cursor: pointer;
+    background-color: #e9570b;
 }
 
 .my-btn.fff:hover{
@@ -82,12 +94,16 @@ h6{
     border-bottom: 2px solid #f76210;
 }
 
-#icon-phone::before{
+.phone-content{
+    cursor: pointer;
+}
+
+.icon-phone::before{
     font-family: "Font Awesome 5 Free";
     content: "\f879";
     font-weight: 900;
     color: #f76210;
-    padding: 15px;
+    padding: 0 10px;
 }
 
 /*                     jumbotron                     */
@@ -115,9 +131,13 @@ h6{
 
 /*     form section into jumbotron */
 .form-section{
+
     background-color: #fff;
-    border-radius: 6px;
+    border-radius: 12px;
     padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 24px 32px -6px
+
 }
 
 .form-section .photo-expert{
@@ -130,8 +150,14 @@ h6{
     border-radius: 50%;
 }
 
+.info-expert span{
+    color: #f76210;
+}
 
-
+.form-input input{
+    border-radius: 10px;
+    padding: 8px;
+}
 
 .consultation, #case-studies, #testimonial, #resources, #callback, footer{
     height: 600px;
