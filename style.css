@@ -20,6 +20,10 @@ h2{
 }
 
 h3{
+    font-size: 40px;
+}
+
+h4{
     font-size: 22px;
     font-weight: 500px;
 }
@@ -32,6 +36,10 @@ h6{
 small{
     color: rgba(0, 0, 0, 0.5);
     font-size: 12px;
+}
+
+.small-black{
+    color: #000;
 }
 
 .p-light{
@@ -71,7 +79,15 @@ small{
     cursor: pointer;
 }
 
+.photo-expert{
+    width: 80px;
+    height: 80px;
+}
 
+.photo-expert img{
+    width: 100%;
+    border-radius: 50%;
+}
 
 
 /* ------------ nav -------------- */
@@ -111,6 +127,9 @@ small{
     padding: 0 10px;
 }
 
+
+
+
 /*                     jumbotron                     */
 .jumbotron{
     width: 100%;
@@ -145,16 +164,6 @@ small{
 
 }
 
-.form-section .photo-expert{
-    width: 100px;
-    height: 100px;
-}
-
-.form-section .photo-expert img{
-    width: 100%;
-    border-radius: 50%;
-}
-
 .info-expert span{
     color: #f76210;
 }
@@ -175,10 +184,6 @@ small{
     width: 100%;
 }
 
-.consultation, #case-studies, #testimonial, #resources, #callback, footer{
-    height: 600px;
-    border-bottom: 1px solid black;
-}
 
 /*               brands logo          */
 .logo-brand{
@@ -192,14 +197,38 @@ small{
 
 }
 
+/*                 expert row                  */
+.expert-row{
+    border-radius: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 24px 32px -6px
+}
 
+.expert-row h3{
+    letter-spacing: 1px;
+}
+
+/*                 case studies             */
+.case-box{
+    width: 100%;
+}
 
 #brands, #expert{
-    height: 300px;
+    height: 350px;
     border-bottom: 1px solid black;
 }
 
+ #case-studies{
+    height: 900px;
+    border-bottom: 1px solid black;
+
+ }
+
+.consultation, #testimonial, #resources, #callback, footer{
+    height: 600px;
+    border-bottom: 1px solid black;
+}
 #boost{
-    height: 1200px;
+    height: 1300px;
     border-bottom: 1px solid black;
 }
