@@ -159,6 +159,16 @@ small{
     padding: 8px;
 }
 
+/*                 consultation section */
+.consultation-image{
+    width: 300px;
+    height: 300px;
+}
+
+.consultation-image img{
+    width: 100%;
+}
+
 .consultation, #case-studies, #testimonial, #resources, #callback, footer{
     height: 600px;
     border-bottom: 1px solid black;
