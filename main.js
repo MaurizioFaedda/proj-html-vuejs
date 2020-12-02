@@ -1,6 +1,15 @@
 var app = new Vue ({
     el: '#root',
     data: {
+        nav_menu:{
+            // lascio la possibilità di inserire dei link per un dropdpwn
+            "home": [],
+            "services":[],
+            "why us":[],
+            "case studios":[],
+            "about": [],
+            "blog":[]
+        },
         logos: [
             'facebook-f',
             'twitter',
@@ -10,7 +19,8 @@ var app = new Vue ({
             'tiktok'
 
         ],
-        footer_menu: {
+
+        footer_menu:{
             service: [
                 'Marketing Plan',
                 'Sales Development',
@@ -31,6 +41,8 @@ var app = new Vue ({
                 'Contact Us',
                 'Careers'
             ]
-        }
+        },
+        number_phone: '(555) 802-1234',
+        email_expert: 'info@yourcompany.com'
     }
 })
