@@ -20,7 +20,7 @@ h2{
 }
 
 h3{
-    font-size: 40px;
+    font-size: 42px;
 }
 
 h4{
@@ -28,8 +28,9 @@ h4{
     font-weight: 500px;
 }
 
+
 h6{
-    font-weight: 400;
+    font-weight: 400px;
     color: #777777;
 }
 
@@ -38,9 +39,13 @@ small{
     font-size: 12px;
 }
 
-.small-black{
-    color: #000;
+p{
+    font-size: 20px;
 }
+
+/* .small-black{
+    color: #000;
+} */
 
 .p-light{
     color: #fff;
@@ -174,6 +179,9 @@ small{
 }
 
 /*                 consultation section */
+.consultation{
+    height: 600px;
+}
 
 .consultation-image{
     width: 500px;
@@ -213,22 +221,51 @@ small{
     width: 100%;
 }
 
-#brands, #expert{
-    height: 350px;
-    border-bottom: 1px solid black;
-}
-
- #case-studies{
-    height: 900px;
-    border-bottom: 1px solid black;
-
- }
-
-.consultation, #testimonial, #resources, #callback, footer{
-    height: 600px;
-    border-bottom: 1px solid black;
-}
+/*         aerea boost */
 #boost{
-    height: 1300px;
+    /* height: 1700px; */
     border-bottom: 1px solid black;
+    background: rgb(255,255,255);
+    background: linear-gradient(18deg, rgba(255,255,255,0.8295693277310925) 82%, rgba(227,228,226,1) 100%);
+}
+
+.image-boost img{
+    border-radius: 8px;
+}
+
+.icon-boost{
+    width: 70px;
+    height: 70px;
+    border: 3px solid #f76210;
+    border-radius: 14px;
+    margin-right: 22px;
+
+}
+
+.icon-boost::before{
+    content: "\f201";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #f76210;
+    font-size: 40px;
+}
+
+/*         logos awards         */
+.logo-award{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+.logo-award img{
+    width: 100%;
+}
+
+.text-award{
+    text-align: center;
+}
+
+.text-award p{
+    font-size: 18px;
+
 }
