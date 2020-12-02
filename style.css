@@ -107,6 +107,11 @@ a:hover{
     border-radius: 50%;
 }
 
+#boost, #resources{
+    background: rgb(255,255,255);
+background: linear-gradient(18deg, rgba(255,255,255,0.700717787114846) 37%, rgba(227,228,226,0.6979166666666667) 100%);
+}
+
 
 /* ------------ nav -------------- */
 .nav{
@@ -179,7 +184,10 @@ a:hover{
     padding: 30px;
     border: 1px solid rgba(0, 0, 0, 0.09);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 24px 32px -6px
+}
 
+.form-section h4{
+    color: #000;
 }
 
 .info-expert span{
@@ -235,12 +243,7 @@ a:hover{
 }
 
 /*         aerea boost */
-#boost{
-    /* height: 1700px; */
-    border-bottom: 1px solid black;
-    background: rgb(255,255,255);
-    background: linear-gradient(18deg, rgba(255,255,255,0.8295693277310925) 82%, rgba(227,228,226,1) 100%);
-}
+
 
 .image-boost img{
     border-radius: 8px;
@@ -283,10 +286,50 @@ a:hover{
 
 }
 
-/*         footer          */
-footer{
-    height: 600px;
+/*             testimonal          */
+.img-testimonial img{
+    border-radius: 8px
 }
+
+.testimonial small{
+    color: #000;
+}
+
+/*         resources         */
+.img-resources{
+    width: 98%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.img-resources img{
+    width: 100%;
+}
+
+/*         callback         */
+#callback{
+    background-color: #000;
+    color: #fff;
+}
+
+.callback-top p{
+    font-size: 26px;
+}
+.callback-bottom p{
+    font-size: 20px;
+}
+
+.callback-bottom small{
+    color: rgba(256, 256, 256, 0.5);
+}
+
+#callback hr{
+    border: 1px solid rgba(256, 256, 256, 0.2);
+    width: 20%;
+}
+
+/*         footer          */
+
 
 footer h4{
     font-size:
