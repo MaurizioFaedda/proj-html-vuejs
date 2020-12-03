@@ -293,13 +293,14 @@ background: linear-gradient(180deg, rgba(247,98,16,0) 4%, rgba(247,98,16,1) 67%)
 }
 
 /*                 consultation section */
-.consultation{
+/* .consultation{
     height: 600px;
-}
+} */
 
 .consultation-image{
     width: 500px;
     height: 500px;
+    padding-top: 70px;
 }
 
 .circle{
