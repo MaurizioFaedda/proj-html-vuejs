@@ -121,6 +121,83 @@ background: linear-gradient(180deg, rgba(247,98,16,0) 4%, rgba(247,98,16,1) 67%)
     opacity: 0.7;
 }
 
+/*         icon-chat fixed  */
+.chat-icon-box span::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f27a";
+    font-weight: 900;
+    font-size: 22px;
+    color: #fff;
+}
+
+.chat-section{
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
+}
+
+
+.chat-icon-box{
+    width: 45px;
+    height: 45px;
+    background-color: #f76210;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.chat{
+    width: 240px;
+    height: 190px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: #fff;
+    border-radius: 6px;
+    position: relative;
+
+}
+
+.close-chat{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+}
+
+.close-chat span:hover{
+    color: #000;
+}
+
+
+.close-chat span{
+    color: rgba(0,0,0,0.2)
+}
+
+.img-min-expert{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -30px;
+    left: 90px;
+
+}
+
+.img-min-expert img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.text-chat{
+    padding: 38px 12px;
+    margin: auto;
+}
+
+.text-chat p{
+    font-size: 17px;
+}
+
 
 /* ------------ nav -------------- */
 .nav{
@@ -280,6 +357,9 @@ background: linear-gradient(180deg, rgba(247,98,16,0) 4%, rgba(247,98,16,1) 67%)
     border: 3px solid #f76210;
     border-radius: 14px;
     margin-right: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -288,7 +368,6 @@ background: linear-gradient(180deg, rgba(247,98,16,0) 4%, rgba(247,98,16,1) 67%)
     font-weight: 900;
     color: #f76210;
     font-size: 43px;
-    margin-left: 1px;
 }
 
 .icon-boost.accountability::before{
