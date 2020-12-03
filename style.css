@@ -214,6 +214,22 @@ background: linear-gradient(180deg, rgba(247,98,16,0) 4%, rgba(247,98,16,1) 67%)
     height: 500px;
 }
 
+.circle{
+    height: 40px;
+    width:  40px;
+    border-radius: 50%;
+}
+
+.circle-yellow{
+    background-color: #efd540;
+}
+.circle-blue{
+    background-color: #0065ff;
+}
+.circle-green{
+    background-color: #3dc47f;
+}
+
 .consultation-image img{
     width: 100%;
 }
@@ -240,6 +256,10 @@ background: linear-gradient(180deg, rgba(247,98,16,0) 4%, rgba(247,98,16,1) 67%)
 
 .expert-row h3{
     letter-spacing: 1px;
+}
+
+#expert h4{
+    font-size: 24px;
 }
 
 /*                 case studies             */
