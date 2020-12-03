@@ -134,6 +134,8 @@ background: linear-gradient(180deg, rgba(247,98,16,0) 4%, rgba(247,98,16,1) 67%)
     position: fixed;
     bottom: 12px;
     right: 12px;
+    z-index: 2;
+
 }
 
 
@@ -146,6 +148,7 @@ background: linear-gradient(180deg, rgba(247,98,16,0) 4%, rgba(247,98,16,1) 67%)
     justify-content: center;
     align-items: center;
     cursor: pointer;
+
 
 }
 
@@ -233,10 +236,13 @@ background: linear-gradient(180deg, rgba(247,98,16,0) 4%, rgba(247,98,16,1) 67%)
     font-family: "Font Awesome 5 Free";
     content: "\f879";
     font-weight: 900;
-    color: #f76210;
     padding: 0 10px;
 }
 
+.icon-phone.color-orange{
+    color: #f76210;
+
+}
 
 
 
