@@ -190,12 +190,17 @@ background: linear-gradient(180deg, rgba(247,98,16,0) 4%, rgba(247,98,16,1) 67%)
 }
 
 .text-chat{
-    padding: 38px 12px;
+    padding: 16px 12px;
+    padding-top: 38px;
     margin: auto;
 }
 
 .text-chat p{
     font-size: 17px;
+}
+
+.active{
+    display: none;
 }
 
 

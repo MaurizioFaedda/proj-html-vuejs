@@ -18,11 +18,11 @@
         <div id="root">
 
             <div class="chat-section">
-                <div class="chat mb-2">
+                <div :class="{active : check}" class="chat mb-2">
                     <div class="img-min-expert">
                         <img src="images\images-avada-theme\marketing-expert-cta.png" alt="">
                     </div>
-                    <div class="close-chat">
+                    <div @click="isActive()" class="close-chat">
                         <span><i class="fas fa-times"></i></span>
                     </div>
                     <div class="text-chat">
@@ -30,7 +30,7 @@
                     </div>
                 </div>
                 <div class="chat-bottom d-flex justify-content-end">
-                    <div class="chat-icon-box">
+                    <div @click="isActive()" class="chat-icon-box">
                         <span></span>
                     </div>
                 </div>

@@ -43,6 +43,17 @@ var app = new Vue ({
             ]
         },
         number_phone: '(555) 802-1234',
-        email_expert: 'info@yourcompany.com'
+        email_expert: 'info@yourcompany.com',
+        check: false
+    },
+
+    methods: {
+        isActive(){
+            if(this.check === true){
+                this.check = false
+            }else{
+                this.check = true
+            }
+        }
     }
 })
