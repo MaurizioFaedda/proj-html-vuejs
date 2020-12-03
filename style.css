@@ -303,6 +303,18 @@ background: linear-gradient(180deg, rgba(247,98,16,0) 4%, rgba(247,98,16,1) 67%)
     padding-top: 70px;
 }
 
+.consultation-image-yellow{
+    width: 550px;
+    height: 550px;
+    padding-top: 120px;
+}
+
+.consultation-image-yellow img{
+    width: 100%;
+}
+
+
+
 .circle{
     height: 40px;
     width:  40px;
